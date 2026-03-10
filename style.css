@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Pagefont;
+  src: url(./assets/Coolvetica\ Rg.otf);
+}
+
+body {
+  margin: 0px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #001b29;
+  font-family: Pagefont;
+  margin: 0;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+h1 {
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+#trip {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+}
+
+#banner {
+  display: flex;
+  width: 1500px;
+  margin: auto;
+}
+
+#lugares {
+  display: flex;
+  width: 1250px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card > p {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card > h2 {
+  display: flex;
+  align-self: flex-start;
+}
+
+.subtitles {
+  display: flex;
+  margin: 20px 215px;
+}
